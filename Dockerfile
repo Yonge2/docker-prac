@@ -9,3 +9,5 @@ RUN npm install
 COPY . /docker-prac
 
 EXPOSE 3000
+
+CMD ["npm", "start"]
